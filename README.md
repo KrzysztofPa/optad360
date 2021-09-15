@@ -41,10 +41,10 @@ symfony serve -d
 -d is for run server in background
 
 Now you can communicate with server, by 2 endpoints (propose to use Postman-like app).
-####POST:
+#### POST:
 {yourLocalHostServer)/post - with body JSON. example of JSON:
 ```
 {"settings":{"currency":"EUR","PeriodLength":1,"groupby":""},"headers":["URLs","Tags","DATE","Estimated revenue","Ad impressions","Ad eCPM","CLICKS","Ad CTR"]}
 ```
-####GET:
+#### GET:
 {yourLocalHostServer)/get - return JSON object, of all element in database.
